@@ -1,1 +1,60 @@
 /* Стили для файла index.html */
+/* 
+#757575 - цвет основного текста
+#212121 - вторичный цвет текста
+#FFFFFF - белый
+#2196F3 - цвет акцент
+#188CE8 - button hover (hero section)
+#F5F4FA - background color
+ */
+
+:root {
+  --primary-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #2196f3;
+  --button-change-color: #188ce8;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto";
+  color: var(--primary-text-color);
+  background: #f5f4fa;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Секция Header */
+.logo {
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  font-weight: 700px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-accent-color {
+  color: var(--accent-color);
+}
+.logo-white-color {
+  color: var(--white-color);
+}
+.nav .link {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
