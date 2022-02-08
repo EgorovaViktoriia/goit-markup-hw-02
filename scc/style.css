@@ -54,7 +54,28 @@ a {
   color: var(--tittle-text-color);
 }
 
-.link:hover,
-.link:focus {
+.nav .link:hover,
+.nav .link:focus {
   color: var(--accent-color);
+}
+.link-main {
+  color: var(--accent-color);
+}
+.contacts .contacts-link {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus{
+  color: var(--accent-color);
+
+  /* Секция главная страница */
+  
+.hero .hero-title {
+
 }
