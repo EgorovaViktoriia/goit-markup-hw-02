@@ -61,7 +61,7 @@ a {
 .link-main {
   color: var(--accent-color);
 }
-.contacts .contacts-link {
+.contacts-link {
   font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
@@ -70,12 +70,148 @@ a {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.contacts .contacts-link:hover,
-.contacts .contacts-link:focus{
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
+}
+/* Секция Главная страница */
+.hero-title {
+  font-family: Roboto;
+  font-style: Black;
+  font-size: 44px;
+  font-weight: 900px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  background-color: #2f303a;
+  color: var(--white-color);
+}
+.button {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--button-change-color);
+}
 
-  /* Секция главная страница */
-  
-.hero .hero-title {
+/* Секция Преимущества  */
+.subtitle {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+}
+.description {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* Секция Чем мы занимаемся */
+.title {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 36px;
+  font-weight: 700px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+}
+/* Секция Наша команда  */
+.name {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+}
+.position {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
 
+/* Секция footer  */
+.footer {
+  background-color: #2f303a;
+}
+.address {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+/* Основная секция портфолио с работами */
+/* Список кнопок */
+.btn-menu {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+  background-color: #f5f4fa;
+}
+.btn-menu:hover,
+.btn-menu:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.btn-menu-main {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.btn-menu-main,
+.btn-menu-main:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Список работ с img */
+.proj-title {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+}
+.proj-descrip {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
